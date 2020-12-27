@@ -1,0 +1,20 @@
+{
+    "development": {
+
+        "username": "rECBsBl5y4",
+        "password": "mXTroOuEEm",
+        "database": "rECBsBl5y4",
+        "host": "remotemysql.com",
+        "dialect": "mysql",
+        "port" : "3306"
+
+    },
+    "test": {
+        "dialect": "sqlite",
+        "storage": "./database.sqlite3"
+    },
+    "production": {
+        "dialect": "sqlite",
+        "storage": "./database.sqlite3"
+    }
+}
